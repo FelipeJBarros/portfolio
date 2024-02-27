@@ -16,4 +16,6 @@
 body {
     background-color: var(--background);
     color: var(--contrast-text);
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
 }
