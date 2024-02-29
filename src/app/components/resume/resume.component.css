@@ -1,0 +1,15 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.resume p {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+}
