@@ -6,10 +6,22 @@
 
 .resume p {
     text-align: center;
+    font-weight: 300;
+}
+
+.resume a {
+    color: var(--contrast-text);
+    font-style: italic;
+}
+
+.resume h3,
+.resume h4 {
+    text-align: center;
 }
 
 .skills {
     display: flex;
     align-items: baseline;
+    justify-content: space-around;
     gap: 24px;
 }
