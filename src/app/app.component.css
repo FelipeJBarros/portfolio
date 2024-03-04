@@ -5,3 +5,27 @@ main {
     flex-direction: column;
     gap: 24px;
 }
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 770px) and (max-width: 1024px){
+    main {
+        max-width: 720px;
+        margin: 24px auto;
+    }
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    main {
+        max-width: 960px;
+        margin: 24px auto;
+    }
+}
+ 
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    main {
+        max-width: 960px;
+        margin: 24px auto;
+    }
+}

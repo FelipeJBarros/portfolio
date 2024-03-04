@@ -41,3 +41,52 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media (min-width: 370px) and (max-width: 378px) {
+    .greatings h1 {
+        font-size: 1.9rem;
+    }
+    
+    .greatings h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 379px) and (max-width: 710px) {
+    .greatings h1 {
+        font-size: 1.9rem;
+    }
+    
+    .greatings h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 711px) {
+    .greatings h1 {
+        font-size: 2rem;
+    }
+    
+    .greatings h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 625px) {
+    .introduction img {
+        align-self: center;
+    }
+}
+
+@media (min-width: 625px) {
+    .introduction {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .introduction img {
+        border: 2px solid var(--contrast-text);
+        border-radius: 100%;
+    }
+}
