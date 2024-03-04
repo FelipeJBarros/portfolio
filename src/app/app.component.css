@@ -4,6 +4,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    position: relative;
 }
  
 /* Media Query for Tablets Ipads portrait mode */
@@ -25,7 +27,7 @@ main {
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
     main {
-        max-width: 960px;
+        max-width: 1140px;
         margin: 24px auto;
     }
 }

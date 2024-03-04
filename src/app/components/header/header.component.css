@@ -83,6 +83,7 @@ header {
         flex-direction: row-reverse;
         justify-content: flex-end;
         align-items: center;
+        gap: 48px;
     }
 
     .introduction img {
