@@ -8,7 +8,6 @@ main {
     position: relative;
 }
  
-/* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 770px) and (max-width: 1024px){
     main {
         max-width: 720px;
@@ -16,7 +15,6 @@ main {
     }
 }
  
-/* Media Query for Laptops and Desktops */
 @media (min-width: 1025px){
     main {
         max-width: 960px;
