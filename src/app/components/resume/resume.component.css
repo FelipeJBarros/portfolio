@@ -1,21 +1,30 @@
-.resume {
+#resume {
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    margin: 0px auto;
+
+    max-width: 500px;   
 }
 
-.resume p {
+#resume p {
     text-align: center;
     font-weight: 300;
+    line-height: 24px;
 }
 
-.resume a {
+#resume span {
+    text-align: center;
+}
+
+#resume a {
     color: var(--contrast-text);
     font-style: italic;
 }
 
-.resume h3,
-.resume h4 {
+#resume h3,
+#resume h4 {
     text-align: center;
 }
 
@@ -24,4 +33,30 @@
     align-items: baseline;
     justify-content: space-around;
     gap: 24px;
+}
+
+@media (min-width: 1025px) {
+    #resume {
+        max-width: inherit;
+        align-items: flex-start;
+        
+        font-size: 1.2rem;
+
+        border-left: 1px double var(--contrast-text);
+        padding-left: 24px;
+
+        transition: 0.5s;
+    }
+
+    #resume p {
+        text-align: left;
+    }
+
+    #resume h3 {
+        font-size: 2rem;
+    }
+
+    #resume span {
+        margin-bottom: 2rem;
+    }
 }

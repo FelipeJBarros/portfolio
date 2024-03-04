@@ -17,17 +17,9 @@ main {
 }
  
 /* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){
+@media (min-width: 1025px){
     main {
         max-width: 960px;
-        margin: 24px auto;
-    }
-}
- 
-/* Media Query for Large screens */
-@media (min-width: 1281px) {
-    main {
-        max-width: 1140px;
         margin: 24px auto;
     }
 }
